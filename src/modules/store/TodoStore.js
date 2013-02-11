@@ -5,7 +5,7 @@ define(
     'store/TodoStore', 
     function(require, exports, module){
 
-        var STORE_KEY = 'raptor-todo',
+        var STORE_KEY = 'raptorjs-todo',
             dataStore = require('store/Store'),
             instance = null;
 
